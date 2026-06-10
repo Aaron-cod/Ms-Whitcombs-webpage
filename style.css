@@ -65,7 +65,12 @@ body {
   text-decoration: underline;
  
 }
-
+#details summary::marker{
+  font-size: 1.5em;
+  color: blue;
+  margin-right:15px;
+}
+  
 #About {
   margin: 13px;
   color: rgb(5, 177, 245);
