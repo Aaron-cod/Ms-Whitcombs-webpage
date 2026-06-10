@@ -1,0 +1,196 @@
+body {
+  background: linear-gradient(135deg, #ffeedd 0%, #fbcfe8 50%, #dbeafe 100%);
+  background-attachment: fixed;
+  overflow: auto;
+}
+#Header {
+  display: flex;
+  text-align: center;
+  color: pink;
+  font-size: 2.6em;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(0, 0, 255, 0.6);
+  border: solid skyblue;
+  border-radius: 30px;
+  box-shadow: 0 10px 15px -3px;
+  padding: 12px;
+  margin: 50px;
+}
+#Header:hover {
+  font-size: 2.7em;
+}
+.navbar ul {
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap:15px 30px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(#ffeedd 0%, #fbcfe8 20%, #dbeafe 100%);
+  border-radius: 30px;
+  box-shadow: pink 0px 8px 1px;
+  list-style-type: none;
+  text-align: center;
+}
+.navbar a {
+  text-decoration: none;
+  padding: 10px 20px;
+  color: black;
+  font-size: 1.2rem;
+  display: inline-block;
+}
+.navbar  #fav {
+  border-radius: 30px;
+  margin: 0 10px;
+  transition: all 0.4s ease;
+  box-shadow:0 2px 1px;
+}
+
+.navbar li:hover {
+  background-color: rgb(12, 12, 254, 0.6);
+  border: solid blue;
+  border-radius: 30px;
+  box-shadow: none;
+
+  
+}
+#fav {
+  color: rgb(24, 188, 253);
+  text-decoration: none;
+}
+#fav li:hover {
+  color: rgb(104, 220, 185);
+  background-color: #fbcfe8;
+  text-align: center;
+  text-decoration: underline;
+ 
+}
+
+#About {
+  margin: 13px;
+  color: rgb(5, 177, 245);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+footer {
+  display: flex;
+  flex-direction:column;
+  gap:10px;
+  border: solid pink;
+  padding:10px;
+  border-radius: 30px;
+  font-size:1.6em;
+  background-color:rgb(13, 13, 255,0.4);
+  text-decoration: none;
+}
+footer a{
+    text-decoration: none;
+}
+footer a:hover{
+    color:blue;
+    text-decoration:underline;
+}
+
+
+
+/* second page*/
+#Page_two_header{
+    color:rgba(0, 0, 255, 0.427);
+    text-align: center;
+
+}
+main{
+    margin: 20px;
+}
+.container{
+    background-color:rgb(139, 211, 240,0.5);
+    border-radius:20px;
+    border:4px  solid pink;
+    width:100%;
+    max-width: 650px;
+    margin:20px auto;
+    display:flex;
+    box-shadow: 0 8px  gray;
+    font-size:1.2em;
+    padding: 10px;
+    display: flex;
+}
+.container img{
+    float: left;
+    width:50%;
+    height:auto;
+    margin-right:5px ;
+    margin-bottom: 8px;
+  
+}
+.container #About-me::selection{
+    color:rgb(255, 130, 151);
+    background-color: rgb(192, 253, 180);
+}
+#home{
+    position: relative;
+    background-color:rgb(87, 195, 237);
+    margin:30px;
+    border: #34b2d1;
+    border-radius: 10px;
+    text-decoration: none;
+}
+#home:hover{
+  background-color: #dc0b81;
+}
+/*Third page*/
+#main3{
+  margin-left:100px;
+}
+
+.blocks{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction:row;
+  gap:100px;
+  justify-content: center;
+
+}
+.block{
+  width: 200px;
+  height: 200px;
+  background-color: rgb(41, 166, 216,0.6);
+  border:white solid;
+  position: relative;
+  transition: ease-in-out 0.1s;
+
+}
+
+
+
+.block:hover{
+  transform: scale(1.15);
+  background-color: rgb(41, 166, 216,0.6);
+  border: 2px white solid;
+  position: relative;
+}
+
+
+
+
+.description{
+  display: inline-block;
+  color:white;
+  position:absolute;
+  font-family: sans-serif;
+  left: 15px;
+  bottom: 10px;
+  left: 10px;
+  text-align:start;
+  text-shadow: 1px 1px 4px rgb(0,0,0,0.8);
+}
+#ds{
+  float: left;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: #15c4f0;
+  border: 1px solid white;
+  border-radius: 4px;
+}
